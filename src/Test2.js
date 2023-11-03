@@ -1,11 +1,19 @@
-import React from 'react';
+function Test2(){
+    return(
+        <>
+            <h2>My test2</h2>
+            <List />
+        </>
 
-class Test2 extends React.Component{
-    render(){
-       return(
-        <h2>My New Test2</h2>
-       )
-    }
+    )
 }
-
-export default Test2;
+function List(){
+    return(
+        <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
+    )
+}
+export default Test2
